@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <!-- Font Awsome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Bootstrap Link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <!-- Custom Style -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body style="overflow-x: hidden;">
+    <!-- top -->
+    <div id="top" class="container-fluid bg-body-tertiary ">
+        <div id="topBar" class="row ">
+            <div id="lowerTopBar" class="col-md-6">
+                <div class="call">
+                    <i style="padding-right: 15px;; font-size: larger;" class="fa-solid fa-phone-flip"></i>
+                    <p>Call us</p>
+                    <p style="padding-left: 10px;">+12345678</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="icons">
+                    <div class="fb">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </div>
+                    <div class="fb">
+                        <i class="fa-brands fa-twitter"></i>
+                    </div>
+                    <div class="fb">
+                        <i class="fa-brands fa-google-plus-g"></i>
+                    </div>
+                    <div class="fb">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- header -->
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container" style="height: 70px;">
+            <a id="logo" class="navbar-brand" href="#">
+                <img class="logo" src="assets/logo.png" alt="">
+                <p class="logoTxt">Foundation</p>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+
+                <div class="navbar-nav">
+                    <a class="nav-link " href="#">HOME</a>
+                    <a class="nav-link" href="aboutUs.html">ABOUT US</a>
+                    <a class="nav-link" href="causes.html">CAUSES</a>
+                    <a class="nav-link" href="events.html">EVENTS</a>
+                    <a class="nav-link" href="#">BLOGS</a>
+                    <a class="nav-link" href="staff.html">STAFF</a>
+                    <a class="nav-link" href="contactUs.html">CONTACT US</a>
+                </div>
+                <button id="logo_btn" type="button" class="btn rounded-0">DONATE</button>
+            </div>
+        </div>
+    </nav>
+    <!-- carousel -->
+    <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="assets/slider-intro-image2.jpg" class="d-block w-100" alt="...">
+                <div id="sliderTxt" class="carousel-caption d-md-block">
+                    <div class="caro">
+                        <h3 style="letter-spacing: 3px; font-weight: 600;">WE CAN CHANGE IT <br> TOGETHER DO IT NOW !
+                        </h3>
+                        <div class="line"></div>
+                        <p style="color: white;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, delectus vero. Labore
+                            accusant</p>
+                        <button id="sld_btn" type="button" class="btn rounded-0">LEARN MORE</button>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="assets/slider-intro-image.jpg" class="d-block w-100" alt="...">
+                <div id="sld2" class="carousel-caption d-md-block w-100">
+                    <div class="container-fluid">
+                        <div id="sld3" class="row">
+                            <div id="sec1" class="col-md-7 sm-12">
+                                <div class="mng m-md-auto">
+                                    <h3 style="letter-spacing: 3px; font-weight: 600;">SEND CHILDREN TO SCHOOL</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi temporibus non
+                                        asperiores error a cupiditate
+                                    </p>
+                                </div>
+                            </div>
+                            <div id="sec2" class="col-md-4 sm-12">
+                                <div class="mysec1 row">
+                                    <div class=" col mysec2">
+                                        <p style="margin: 0;">RAISED</p>
+                                        <strong style="font-size: 36px;">$56,987</strong>
+                                    </div>
+                                    <div class=" col mysec3">
+                                        <p style="margin: 0;">TO Go</p>
+                                        <strong style="font-size: 36px;">$1,156,99</strong>
+                                    </div>
+                                </div>
+                                <div class=" col myBtn1">
+                                    <button class="myBtn">DONATE NOW</button>
+                                </div>
+                            </div>
+                            <div id="sec3" class="col-lg-1"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <button style="width: 5%;" class="carousel-control-prev " type="button"
+            data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button style="width: 5%;" class="carousel-control-next " type="button"
+            data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- featured causes -->
+
+    <div class="container my-5 py-5">
+        <div class="container-md-fluid">
+            <h2 class="featuretxt text-center">FEATURED CAUSES</h2>
+            <div class="d-flex justify-content-center align-items-center">
+                <div class="featureLine"></div>
+                <img src="assets/ico-droplet.png" alt="">
+                <div class="featureLine"></div>
+            </div>
+            <p class="featuretxt2 text-md-center m-auto">
+                Integer sit amet augue iaculis, ultricies justo nec, commodo nisi. Class aptent
+                taciti sociosqu ad litora torquent per conubia nostra.
+            </p>
+        </div>
+        <div id="small1" class="row my-4 g-5">
+            <div class="col">
+                <div class="card rounded-0" style="width: 18rem;">
+                    <img style="border-radius: inherit;" src="assets/featured-3 (1).jpg" class="card-img-top" alt="...">
+                    <div class="middle">
+                        <div class="text">
+                            <button class="card_button">Donate Now</button>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title">HELP CHILDS FOR EDUCATION</h3>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus error
+                            totam, recusandae enim nostrum quia!</p>
+                    </div>
+                    <div class="line2 my-5 ">
+                        <div class="innerLine"></div>
+                        <p style="color:rgb(254, 167, 4); padding-top: 5px;">$34,6809-5 $680856 ( 72% )</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card rounded-0" style="width: 18rem;">
+                    <img style="border-radius: inherit;" src="assets/featured-1.jpg" class="card-img-top" alt="...">
+                    <div class="middle">
+                        <div class="text">
+                            <button class="card_button">Donate Now</button>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title">HELP CHILDS FOR EDUCATION</h3>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus error
+                            totam, recusandae enim nostrum quia!</p>
+                    </div>
+                    <div class="line2 my-5 ">
+                        <div class="innerLine"></div>
+                        <p style="color:rgb(254, 167, 4); padding-top: 5px;">$6707,786 $797,65 ( 85% )</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card rounded-0" style="width: 18rem;">
+                    <img style="border-radius: inherit;" src="assets/featured-2.jpg" class="card-img-top" alt="...">
+                    <div class="middle">
+                        <div class="text">
+                            <button class="card_button">Donate Now</button>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title">HELP CHILDS FOR EDUCATION</h3>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus error
+                            totam, recusandae enim nostrum quia!</p>
+                    </div>
+                    <div class="line2 my-5 ">
+                        <div class="innerLine"></div>
+                        <p style="color:rgb(254, 167, 4); padding-top: 5px;">$700,653 $875,9870  ( 60% )</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card rounded-0" style="width: 18rem;">
+                    <img style="border-radius: inherit;" src="assets/featured-4.jpg" class="card-img-top" alt="...">
+                    <div class="middle">
+                        <div class="text">
+                            <button class="card_button">Donate Now</button>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title">HELP CHILDS FOR EDUCATION</h3>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus error
+                            totam, recusandae enim nostrum quia!</p>
+                    </div>
+                    <div class="line2 my-5 ">
+                        <div class="innerLine"></div>
+                        <p style="color:rgb(254, 167, 4); padding-top: 5px;">$7869,086 $6580,97  ( 60% )</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Sponsorship -->
+    <div class="container-fluid ">
+        <div id="myspon" class="row">
+            <div id="carouselExample" class="carousel slide col-lg-6 ">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="assets/slider-intro-image.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/slider-intro-image2.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <div id="spon" class="col-lg-6 m-md-auto">
+                <h4 class="sponhead">Sponsor the entire project</h4>
+                <h2 class="sponhead2">give education to 100 children</h2>
+                <div class="sponLine"></div>
+                <p class="sponhead3">
+                    Integer sit amet augue iaculis, ultricies justo nec, comm taciti sociosqu ad litora torquent.
+                </p>
+                <p class="sponhead4">
+                    Nunc ullamcorper sollicitudin arcu, ut fermentum magna ultricies quis. Proin aliquet, est ut
+                    pellentesque malesuada ut fermentum magna ultricies quis, <br>
+                    purus enim egestas nisl, eget mollis justo lorem facilisis orci. Sed in tristique nulla.
+                </p>
+                <div class="butn row">
+                    <div class="col-md-3">
+                        <button class="learn">Learn More</button>
+                    </div>
+                    <div class="col-md-2">
+                        <p class="learnTxt1">OR</p>
+                    </div>
+                    <div class="col-md-3">
+                        <p class="learnTxt2">INFO@Charitytheme.com</p>
+                    </div>
+                    <div class="col-md-4"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Featured/Updates -->
+    <div class="container mt-5 py-5">
+        <div class="row g-5">
+            <div class="col-lg-6">
+                <h5 class="feat">FEATURED NEWS</h5>
+                <div class="sponLine my-3"></div>
+                <div style="display: flex;">
+                    <div class="row">
+                        <div class="col-lg-6 main">
+                            <img class="mainImg" src="assets/news-image.jpg" alt="">
+                            <div class="imgtxt d-flex">
+                                <i style="padding: 0 10px;" class="fa-solid fa-envelope"></i>
+                                <p>international</p>
+                                <i style="padding: 0 10px;" class="fa-regular fa-calendar-days"></i>
+                                <p style="width: 112px;">may 23 2024</p>
+                            </div>
+                        </div>
+                        <div class=" col-lg-6 main2 pt-4">
+                            <h3 class="main3"> Organized food cam for children</h3>
+                            <p>
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse, iste a. Tempore sed
+                                voluptas est.
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse, iste a. Tempore sed
+                                voluptas est.
+                                adipisicing elit. Esse, iste a. Tempore sed voluptas est.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="news my-5 pt-2">
+                    <h5 class="newsHead">latest news</h5>
+                    <div class="longLine"></div>
+                </div>
+                <div class="row px-md-3">
+                    <img class="treat" src="assets/latest-news-1.jpg" alt="">
+                    <div class="col">
+                        <h5 class="treatTxt">Pizza treat given to childern</h5>
+                        <div class="row">
+                            <p style="font-size: small;">may 7 2019</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row px-md-3 py-3">
+                    <img class="treat" src="assets/latest-news-2.jpg" alt="">
+                    <div class="col">
+                        <h5 class="treatTxt">day with childs from africa</h5>
+                        <div class="row">
+                            <p style="font-size: small;">may 7 2019</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div id="vertical" class="col-lg-6">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <h5 class="feat">UPCOming event</h5>
+                        <div class="sponLine my-3"></div>
+
+                    </div>
+                    <div class="col-sm-6 fbBn">
+                        <button class="fbClass">FAcebook page</button>
+                    </div>
+                </div>
+                <img class="pt-4" style="width: 100%; height: auto;" src="assets/upcoming-event.jpg" alt="">
+
+                <h3 class="main3 my-4"> Organized food and concrts to get donations</h3>
+                <div class="row my-3">
+                    <div class="col-lg-2">
+                        <div style="align-items: baseline;" class="d-flex">
+                            <i style="padding: 0 5px 0 0;" class="fa-solid fa-user"></i>
+                            <p>Admin</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div style="align-items: baseline;" class="d-flex">
+                            <i style="padding: 0 5px 0 0;" class="fa-regular fa-calendar-days"></i>
+                            <p>May 7, 2018 at 2:00 PM</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div style="align-items: baseline;" class="d-flex">
+                            <i style="padding: 0 5px 0 0;" class="fa-solid fa-location-dot"></i>
+                            <p>Montreal, QC.</p>
+                        </div>
+                    </div>
+                </div>
+                <p>Donec varius ultrices purus. Nullam sit amet sapien tortor. Aenean tincidunt inte rdum felis, vel
+                    placerat purus porta nec.</p>
+            </div>
+        </div>
+        <hr style="width: 99%;">
+    </div>
+    <!-- staff -->
+    <div class="container my-5">
+        <h5 class="feat">our staff</h5>
+        <div class="sponLine my-3 "></div>
+
+        <div class="row g-3">
+            <div class="col-md-3">
+                <img class="staffImage" src="assets/staff-image-1.jpg" alt="">
+            </div>
+            <div id="staff" class="col-md-3">
+                <div class="lowerHower">
+                    <h4>john martin</h4>
+                    <p class="changeColor">Donec varius ultrices purus. ullam sit amet sapien tortor. Aenean it inteum
+                        felis, vel placerat
+                        nec.</p>
+                    <div class="sponLine my-3 m-auto"></div>
+                    <div class="staffIcon">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <img style="width: 100%; height: auto;" src="assets/staff 2.jpeg" alt="">
+            </div>
+            <div id="staff" class="col-md-3">
+                <div class="lowerHower">
+                    <h4>Micheal Dpe</h4>
+                    <p class="changeColor">Donec varius ultrices purus. ullam sit amet sapien tortor. Aenean it inteum
+                        felis, vel placerat
+                        nec.</p>
+                    <div class="sponLine my-3 m-auto"></div>
+                    <div class="staffIcon">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="small2" class="row g-3">
+            <div id="staff" class="col-md-3">
+                <div class="lowerHower">
+                    <h4>john martin</h4>
+                    <p class="changeColor">Donec varius ultrices purus. ullam sit amet sapien tortor. Aenean it inteum
+                        felis, vel placerat
+                        nec.</p>
+                    <div class="sponLine my-3 m-auto"></div>
+                    <div class="staffIcon">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <img style="width: 100%; height: auto;" src="assets/staff3.jpeg" alt="">
+            </div>
+            <div id="staff" class="col-md-3">
+                <div class="lowerHower">
+                    <h4>john martin</h4>
+                    <p class="changeColor">Donec varius ultrices purus. ullam sit amet sapien tortor. Aenean it inteum
+                        felis, vel placerat
+                        nec.</p>
+                    <div class="sponLine my-3 m-auto"></div>
+                    <div class="staffIcon">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <img style="width: 100%; height: auto;" src="assets/staff4.jpeg" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- aboutus -->
+    <div class="container my-5 py-5">
+        <h2 class="featuretxt text-center">WHAT KIDS ARE SAYING ABOUT US</h2>
+        <div class="d-flex justify-content-center align-items-center">
+            <div class="featureLine"></div>
+            <img src="assets/ico-droplet.png" alt="">
+            <div class="featureLine"></div>
+        </div>
+        <p class="featuretxt2 text-md-center m-auto">
+            Our prime purpose in this life is to help people.And if you can't help them at least don't hurt them
+        </p>
+    </div>
+    <!-- kids slider -->
+    <div class="slideshow-container">
+        <!-- Full-width slides/quotes -->
+        <div style="color: white; background: orange; font-size: large;" class="mySlides">
+            <q>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius corporis eum accusamus,
+                iure labore autem? Cupiditate in commodi sapiente nihil quo pariatur vero doloremque eius autem iure
+                magni, et doloribus.
+            </q>
+            <div class="myline m-auto my-3"></div>
+            <p style="color:#83380b; text-transform:uppercase;" class="author">John Keats</p>
+        </div>
+        <div style="color: white; background: orange; font-size: large;" class="mySlides">
+            <q> Velit nulla aut blanditiis quisquam maxime ea
+                officia eum, distinctio sequi? Dicta sit eos porro temporibus provident suscipit ad consectetur
+                veritatis dignissimos ipsam assumenda asperiores, sequi, doloremque pariatur hic!
+
+            </q>
+            <div class="myline m-auto my-3">
+            </div>
+            <p style="color:#83380b; text-transform:uppercase;" class="author">John Keats</p>
+        </div>
+
+        <div style="color: white; background: orange; font-size: large;" class="mySlides">
+            <q>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius corporis eum accusamus,
+                iure labore autem? Cupiditate in commodi sapiente nihil quo pariatur vero doloremque eius autem iure
+
+            </q>
+            <div class="myline m-auto my-3">
+            </div>
+            <p style="color:#83380b; text-transform:uppercase;" class="author">John Keats</p>
+        </div>
+
+        <!-- Next/prev buttons -->
+
+    </div>
+    <div style="background: #fa6f1c; " class="dot-container">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+
+    <!-- change -->
+    <div id="change" class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2 class="changeHead">Change Their World. Change Yours. This changes everything.</h2>
+                </div>
+                <div class="col-md-6 ">
+                    <div class="row">
+                        <!-- <div class="col-md-1"></div> -->
+                        <div class="col-lg-5">
+                            <button class="volunteer">Become volunteer</button>
+                        </div>
+                        <div class="col-lg-3">
+                            <p class="or">or</p>
+                        </div>
+                        <div class="col-lg-4">
+                            <button class="volunteer">donate us</button>
+                        </div>
+                    </div>
+                    <!-- <div class="d-lg-flex">
+                        <button class="volunteer">Become volunteer</button>
+                        <p class="or">or</p>
+                        <button class="volunteer">donate us</button>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <div id="footer" class="container-fluid">
+        <div class="container">
+            <div class="row py-5">
+                <div class="col-md-3">
+                    <h5 class="feat">about charity</h5>
+                    <div class="sponLine my-3 "></div>
+                    <p style="font-size: small; padding-top:20px; font-size: 0.875rem;">
+                        Charity vitae diam pulvinar, tempus dia aliquam tellus. Quisque mattis odio eu
+                        placerat luctus. Vivamus magna elit, ultrices non lacinia vel, tempor vitae tell Fusce sit amet
+                        sem sit amet
+                        tempor vitae tell Fusce sit amet sem sit amet.
+                    </p>
+                </div>
+                <div class="col-md-3">
+                    <h5 class="feat">quick links</h5>
+                    <div class="sponLine my-3 "></div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <ul class="link">
+                                <a href="">
+                                    <li>causes</li>
+                                </a>
+                                <a href="">
+                                    <li>projects</li>
+                                </a>
+                                <a href="">
+                                    <li>gallery</li>
+                                </a>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <ul class="link">
+                                <a href="">
+                                    <li>Terms of use</li>
+                                </a>
+                                <a href="">
+                                    <li>legal disclaimer</li>
+                                </a>
+                                <a href="">
+                                    <li>privacy policy</li>
+                                </a>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <h5 class="feat">newsletter signup</h5>
+                    <div class="sponLine my-3 "></div>
+                    <p style="font-size: small; padding-top:20px; font-size: 0.875rem;">
+                        Select your newsletters, enter your email address, and click "Subscribe"
+                    </p>
+                    <div class="input-group pt-3">
+                        <input placeholder="Email Address" type="text" class="form-control rounded-0 h-auto"
+                            aria-label="Dollar amount (with dot and two decimal places)">
+                        <span style="background: #fa6f1c; color: white;" class="input-group-text rounded-0">Go</span>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <h5 class="feat">contact us</h5>
+                    <div class="sponLine my-3 "></div>
+                    <p style="font-size: small; padding-top:20px; font-size: 0.875rem;">
+                        Address: 51 Sherbrooke W., Montreal, Quebec, Canada
+                    </p>
+                    <div class="iconss">
+                        <i style="color: white;" class="fa-solid fa-phone-flip"></i>
+                        <p style="padding: 0 5px; color: white;">Phone</p>
+                        <p>+1 514 000 0000</p>
+                    </div>
+                    <div class="iconss">
+                        <i style="color: white;" class="fa-regular fa-envelope"></i>
+                        <p style="padding: 0 5px; color: white;">Email</p>
+                        <p>info@charitytheme.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            if (n > slides.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = slides.length }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+        }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
